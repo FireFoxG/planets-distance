@@ -1,0 +1,66 @@
+{
+  "name": "Sol",
+  "relativePosition": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "satellites": [
+    {
+      "name": "Mercury",
+      "relativePosition": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "satellites": []
+    },
+    {
+      "name": "Duna",
+      "relativePosition": {
+        "x": 3,
+        "y": 2,
+        "z": 2
+      },
+      "satellites": []
+    },
+    {
+      "name": "Kerbal",
+      "relativePosition": {
+        "x": 5,
+        "y": 6,
+        "z": 7
+      },
+      "satellites": [
+        {
+          "name": "Mün",
+          "relativePosition": {
+            "x": 0.4,
+            "y": -0.1,
+            "z": -0.1
+          },
+          "satellites": []
+        }
+      ]
+    },
+    {
+      "name": "Saturn",
+      "relativePosition": {
+        "x": 15,
+        "y": 20,
+        "z": 30
+      },
+      "satellites": [
+        {
+          "name": "Titan",
+          "relativePosition": {
+            "x": 5,
+            "y": 4,
+            "z": 7
+          },
+          "satellites": []
+        }
+      ]
+    }
+  ]
+}
